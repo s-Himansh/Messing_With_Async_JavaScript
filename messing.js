@@ -26,7 +26,7 @@ containsUserId((id) => {
 
 
 /*
-    javscript by default is not asynchronous, it is synchronous in nature because it is a single threaded language and can only execute code line by lihe
+    javscript by default is not asynchronous, it is synchronous in nature because it is a single threaded language and can only execute code line by line
 
     How it executes the code ❓
         all the code is executed in js engine.
