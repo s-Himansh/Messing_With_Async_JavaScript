@@ -46,3 +46,13 @@ containsUserId((id) => {
 */
 
 
+console.log("line 1");
+console.log("line 2");
+
+setTimeout(() => {   // a browser function not directly executed in call stack instead handled by callback queue
+    console.log("line 3");
+}, 5000)
+
+
+
+console.log("line 4");
